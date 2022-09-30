@@ -9,7 +9,9 @@ const int photoLED = 8;
 const int greenLED = 2;
 long duration;
 int distance;
-Servo myServo; // Creates a servo object for controlling the servo motor
+Servo myServo;
+// Creates a servo object for controlling the servo motor
+// initializing  modes of all pins
 void setup() {
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
@@ -84,7 +86,8 @@ int lastRotation(){
     myServo.write(i);
     delay(30);
       }
-  Serial.print(i);
+    //printing output on serial monitor
+    Serial.print(i);
   Serial.print(",");
   Serial.print(distance);
   Serial.print(".");

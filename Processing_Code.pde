@@ -1,7 +1,8 @@
-//Project
+//Project on Aurdino Radar System
 import processing.serial.*; // imports library for serial communication
 import java.awt.event.KeyEvent; // imports library for reading the data from the serial port
 import java.io.IOException;
+import java.lang.Math.sqrt;// please verify this
 Serial myPort; // defines Object Serial
 // defubes variables
 String angle="";

@@ -14,7 +14,15 @@ int index1=0;
 int index2=0;
 PFont orcFont;
 void setup() {
-  
+ /*
+ This is a java code and so multi line comments must be accepted
+ Hello World
+ Anshul Contributed to this code
+ And
+ added some spam comments
+ which can be later erased
+ 
+ */
  size (1400,900); // ***CHANGE THIS TO YOUR SCREEN RESOLUTION***
  smooth();
  myPort = new Serial(this,"COM4", 9600); // starts the serial communication

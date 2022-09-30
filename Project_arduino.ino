@@ -1,5 +1,5 @@
 // Includes the Servo library
-//Project Arduino
+//Project Arduino to find object near the radar system.
 #include <Servo.h> 
 const int trigPin = 10;
 const int echoPin = 11;
